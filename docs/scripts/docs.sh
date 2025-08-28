@@ -3,5 +3,5 @@
 for f in README docs .github
 do
   git add $f
-  commit -m "$f"
+  git commit -m "$f"
 done
