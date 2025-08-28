@@ -38,6 +38,3 @@ html_theme_options = {
 # Optionally:
 extensions.append("sphinx_rtd_theme")
 html_static_path = ['_static']
-
-templates_path = ['_templates']
-html_static_path = ['_static']
