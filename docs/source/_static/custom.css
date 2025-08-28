@@ -1,8 +1,3 @@
-.wy-side-nav-search {
-  position: relative;
-  padding-top: 120px; /* adjust for your image height */
-}
-
 .wy-side-nav-search::before {
     content: "";
     display: block;
