@@ -1,11 +1,11 @@
 {%- extends "!layout.html" %}
 
 {% block sidebarlogo %}
-  {% if logo_url %}
-    <a href="https://your-target-url.com">
-      <img src="{{ logo_url }}" alt="{{ project }} logo" class="sidebar-logo" />
-    </a>
-  {% else %}
-    {{ super() }}
-  {% endif %}
+  <a href="https://your-target-url.com">
+    <img src="{{ pathto('_static/bees.jpg', 1) }}"
+         alt="{{ project }} logo"
+         class="sidebar-logo"
+         style="width: 100px; height: auto; margin-bottom: 10px;" />
+  </a>
+  {{ super() }}
 {% endblock %}
