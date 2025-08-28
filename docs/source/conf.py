@@ -38,8 +38,3 @@ html_theme_options = {
 # Optionally:
 extensions.append("sphinx_rtd_theme")
 html_static_path = ['_static']
-html_css_files = [
-    'custom.css',
-]
-def setup(app):
-    app.add_css_file('custom.css')
