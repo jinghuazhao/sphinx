@@ -15,10 +15,5 @@ module load ceuadmin/cli
 git init && git add . && git commit -m "Initial commit"
 gh repo create sphinx   --description "Sphinx project" --public   --source=.   --remote=origin --push
 sphinx-quickstart docs
+make clean
 make html
-touch .nojekyll
-git add .nojekyll
-git commit -m "Add .nojekyll to bypass Jekyll processing"
-git add docs
-git commit -m "docs"
-git push
