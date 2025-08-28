@@ -1,0 +1,15 @@
+.wy-side-nav-search {
+  position: relative;
+  padding-top: 120px; /* adjust for your image height */
+}
+
+.wy-side-nav-search::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: url('/_static/bees.jpg') no-repeat center;
+  background-size: contain;
+}
