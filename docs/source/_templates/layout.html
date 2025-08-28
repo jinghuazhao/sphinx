@@ -1,10 +1,13 @@
-{% extends "!layout.html" %}
+{%- extends "!layout.html" %}
 
 {% block sidebarlogo %}
-  <a href="{{ pathto(master_doc) }}" class="sidebar-branding">
+  <a href="{{ pathto(master_doc) }}">
     <img src="{{ pathto('_static/bees.jpg', 1) }}"
          alt="Brand Logo"
          style="width:100%; margin-bottom:10px;" />
   </a>
+  <p style="margin-top: 0;">
+    <a href="{{ pathto(master_doc) }}">Home</a>
+  </p>
   {{ super() }}
 {% endblock %}
