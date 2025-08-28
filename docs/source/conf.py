@@ -33,6 +33,3 @@ html_theme = "sphinx_rtd_theme"
 
 # Optionally:
 html_static_path = ['_static']
-# html_logo = "_static/bees.jpg"
-
-html_css_files = ['custom.css']
