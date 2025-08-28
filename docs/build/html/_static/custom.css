@@ -1,5 +1,5 @@
-/* Resize the logo to 75% of its original size */
-#logo img {
-    width: 75%;
-    height: auto;
+.sidebar-logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }
