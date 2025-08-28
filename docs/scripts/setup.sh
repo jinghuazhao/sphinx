@@ -7,6 +7,7 @@ cd
 python -m venv python3.12
 source python3.12/bin/activate
 pip install sphinx
+pip install sphinx_rtd_theme
 mkdir sphinx
 cd sphinx/
 echo Sphinx > README.md
