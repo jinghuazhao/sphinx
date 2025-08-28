@@ -4,12 +4,10 @@
 }
 
 .wy-side-nav-search::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  background: url('/_static/bees.jpg') no-repeat center;
-  background-size: contain;
+    content: "";
+    display: block;
+    height: 100px;  /* adjust for logo height */
+    background: url('_static/bees.jpg') no-repeat center;
+    background-size: contain;
+    margin-bottom: 10px;
 }
