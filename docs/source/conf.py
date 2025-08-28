@@ -6,6 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sphinx_rtd_theme
 project = 'Sphinx'
 copyright = '2025, Jing Hua Zhao'
 author = 'Jing Hua Zhao'
@@ -28,8 +29,8 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 # html_theme = 'alabaster'
-import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 
 # Optionally:
 html_static_path = ['_static']
+html_logo = "_static/bees.jpg"
