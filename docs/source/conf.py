@@ -34,7 +34,3 @@ html_theme = "sphinx_rtd_theme"
 # Optionally:
 html_static_path = ['_static']
 html_logo = "_static/bees.jpg"
-html_theme_options = {'logo_only': True}
-html_theme_options = {
-    'logo': {'image': '_static/bees.jpg', 'alt_text': 'Brand Logo'},
-}
