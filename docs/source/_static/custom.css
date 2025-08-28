@@ -1,13 +1,12 @@
-/* Style the sidebar logo (sphinx_rtd_theme) */
+/* === Force logo into a perfect circle === */
 .wy-side-nav-search img {
-  width: 50% !important;         /* Shrink logo to 50% of container */
-  height: auto;
-  border-radius: 50%;            /* Make it circular */
-  object-fit: cover;
+  width: 75px !important;           /* Fixed width */
+  height: 75px !important;          /* Fixed height to match width */
+  border-radius: 50% !important;    /* Circle */
+  object-fit: cover !important;     /* Crop image to fit circle */
   display: block;
-  margin: 10px auto;             /* Centered */
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease-in-out;
+  margin: 10px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
