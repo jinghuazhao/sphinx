@@ -1,5 +1,16 @@
-.sidebar-logo img {
-  width: 100px;
+/* Style the sidebar logo (sphinx_rtd_theme) */
+.wy-side-nav-search img {
+  width: 50% !important;         /* Shrink logo to 50% of container */
   height: auto;
-  margin-bottom: 10px;
+  border-radius: 50%;            /* Make it circular */
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;             /* Centered */
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.wy-side-nav-search img:hover {
+  transform: scale(1.05);
 }
