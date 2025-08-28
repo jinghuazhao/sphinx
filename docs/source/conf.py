@@ -42,3 +42,6 @@ html_theme_options = {
     'navigation_depth': 4,
     'sticky_navigation': True,
 }
+
+def setup(app):
+    app.add_css_file("custom.css")
