@@ -45,4 +45,4 @@ Additional details can be found from a file named [setup.sh](docs/scripts/setup.
 
 ## Browse
 
-Locally, one can use a browser for docs/build/html and remotely, the page is visible from <https://jinghuazhao.github.io/sphinx/>.
+One can use a browser locally for docs/build/html and the page is visible remotely from <https://jinghuazhao.github.io/sphinx/>.
