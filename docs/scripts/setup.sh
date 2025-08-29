@@ -8,6 +8,7 @@ python -m venv python3.12
 source python3.12/bin/activate
 pip install sphinx
 pip install sphinx_rtd_theme
+pip install sphinxcontrib-mermaid
 cd -
 # create sphinx
 mkdir sphinx && cd sphinx

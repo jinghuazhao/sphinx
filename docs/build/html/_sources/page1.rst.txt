@@ -1,4 +1,9 @@
-Page 1 Title
-============
+Page 1. The logo image
+======================
 
-Content for page 1...
+.. image:: _static/bees.jpg
+   :alt: Bees Logo
+   :align: center
+   :width: 200px
+
+This concludes page...

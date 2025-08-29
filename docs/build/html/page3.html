@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page 1. The logo image &mdash; Sphinx 0.0.1 documentation</title>
+  <title>Page 3. Miscellaneous elements &mdash; Sphinx 0.0.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="_static/custom.css?v=749aecef" />
@@ -17,12 +17,20 @@
       <script src="_static/documentation_options.js?v=d45e8c67"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+      <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+      <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+      <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
       <script src="_static/custom.js?v=29424955"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Page 2. Hyperlink" href="page2.html" />
-    <link rel="prev" title="Sphinx documentation" href="index.html" /> 
+    <link rel="prev" title="Page 2. Hyperlink" href="page2.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -47,9 +55,9 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Page 1. The logo image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="page1.html">Page 1. The logo image</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page2.html">Page 2. Hyperlink</a></li>
-<li class="toctree-l1"><a class="reference internal" href="page3.html">Page 3. Miscellaneous elements</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Page 3. Miscellaneous elements</a></li>
 </ul>
 
         </div>
@@ -66,9 +74,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Page 1. The logo image</li>
+      <li class="breadcrumb-item active">Page 3. Miscellaneous elements</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/page1.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/page3.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -76,19 +84,23 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="page-1-the-logo-image">
-<h1>Page 1. The logo image<a class="headerlink" href="#page-1-the-logo-image" title="Link to this heading"></a></h1>
-<a class="reference internal image-reference" href="_images/bees.jpg"><img alt="Bees Logo" class="align-center" src="_images/bees.jpg" style="width: 200px;" />
-</a>
-<p>This concludes page…</p>
+  <section id="page-3-miscellaneous-elements">
+<h1>Page 3. Miscellaneous elements<a class="headerlink" href="#page-3-miscellaneous-elements" title="Link to this heading"></a></h1>
+<p>Is <span class="math notranslate nohighlight">\(\sin(4)\)</span> negative?</p>
+<pre  class="mermaid">
+        graph TD;
+    A[Start] --&gt; B{Is it working?};
+    B -- Yes --&gt; C[Great];
+    B -- No --&gt; D[Fix it];
+    D --&gt; B;
+    </pre><p>This concludes page…</p>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Sphinx documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="page2.html" class="btn btn-neutral float-right" title="Page 2. Hyperlink" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="page2.html" class="btn btn-neutral float-left" title="Page 2. Hyperlink" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

@@ -1,4 +1,6 @@
-Page 2 Title
-============
+Page 2. Hyperlink
+=================
 
-Content for page 2...
+This shows a hyperlink...
+
+`Visit the root website <https://jinghuazhao.github.io>`_

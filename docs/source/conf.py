@@ -17,6 +17,7 @@ release = '0.0.1'
 
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinxcontrib.mermaid',
     # any others you need…
 ]
 
