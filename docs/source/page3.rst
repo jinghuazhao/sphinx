@@ -1,7 +1,16 @@
 Page 3. Miscellaneous elements
 ==============================
 
-Is :math:`\sin(4)` negative?
+Q. Is :math:`\sin(4)` negative?
+
+A. Yes, based on results from R, we have:
+
+::
+
+   > sin(4)
+   [1] -0.7568025
+
+So this value is based on radians.
 
 .. mermaid::
 

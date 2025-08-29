@@ -1,4 +1,4 @@
-Page 2. Hyperlink
+Page 2. Hypertext
 =================
 
 This shows a hyperlink...
