@@ -14,7 +14,7 @@ mkdir sphinx && cd sphinx
 echo Sphinx > README.md
 module load ceuadmin/cli
 git init && git add . && git commit -m "Initial commit"
-gh repo create sphinx   --description "Sphinx project" --public   --source=.   --remote=origin --push
+gh repo create sphinx --description "Sphinx project" --public --source=. --remote=origin --push
 touch .nojekyll
 sphinx-quickstart docs
 cd docs
