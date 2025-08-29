@@ -28,7 +28,7 @@ $ docs/tree
 5 directories, 11 files
 ```
 
-The design mirrors those at <https://cambridge-ceu.github.io/csd3/>.
+The design, in particular its sidebar, mirrors those at <https://cambridge-ceu.github.io/csd3/>.
 
 ## Build
 
