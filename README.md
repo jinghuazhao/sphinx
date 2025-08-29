@@ -39,7 +39,7 @@ cd docs
 make clean && make html
 ```
 
-Additional detailed can be found from a file named [setup.sh](docs/scripts/setup.sh).
+Additional details can be found from a file named [setup.sh](docs/scripts/setup.sh).
 
 ## Effect
 
