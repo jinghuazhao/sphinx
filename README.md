@@ -21,14 +21,13 @@ $ tree
     ├── index.rst
     ├── page1.rst
     ├── page2.rst
-    ├── page3.rst
     ├── _static
     │   ├── bees.jpg
     │   ├── custom.css
     │   └── custom.js
     └── _templates
 
-5 directories, 12 files
+5 directories, 11 files
 ```
 
 The design, in particular its sidebar, mirrors those at <https://cambridge-ceu.github.io/csd3/>.
