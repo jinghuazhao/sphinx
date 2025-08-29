@@ -4,7 +4,7 @@ This is a template for documentation using sphinx-rtd-theme.
 
 ## Structure
 
-The docs/ has the following setup,
+The docs/ directory tree is as follows,
 
 $ tree
 
