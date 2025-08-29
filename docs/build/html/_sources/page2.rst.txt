@@ -1,6 +1,23 @@
-Page 2. Hypertext
-=================
+Page 2. Miscellaneous elements
+==============================
 
-This shows a hyperlink...
+Q. Is :math:`\sin(4)` negative?
 
-`Visit the root website <https://jinghuazhao.github.io>`_
+A. Yes, based on results from R, we have:
+
+::
+
+   > sin(4)
+   [1] -0.7568025
+
+So this value is based on radians.
+
+.. mermaid::
+
+   graph TD;
+       A[Start] --> B{Is it working?};
+       B -- Yes --> C[Great];
+       B -- No --> D[Fix it];
+       D --> B;
+
+This concludes page...
