@@ -4,7 +4,9 @@ This is a template for documentation using sphinx-rtd-theme.
 
 ## Structure
 
-$ docs/tree
+The docs/ has the following setup,
+
+$ tree
 
 ```
 .
