@@ -30,14 +30,16 @@ $ docs/tree
 
 The design mirrors those at <https://cambridge-ceu.github.io/csd3/>.
 
-## Setup
+## Build up
+
+After cloned into a local directory with a Python environment, it is furnished as follows,
 
 ```bash
 cd docs
 make clean && make html
 ```
 
-Additional scripts can be found from [this script](docs/scripts/setup.sh).
+Additional detailed can be found from [this script](docs/scripts/setup.sh).
 
 ## Effect
 
