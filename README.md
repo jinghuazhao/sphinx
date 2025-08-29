@@ -30,7 +30,7 @@ $ docs/tree
 
 The design mirrors those at <https://cambridge-ceu.github.io/csd3/>.
 
-## Build up
+## Page-building
 
 After cloned into a local directory with a Python environment, it is furnished as follows,
 
@@ -39,8 +39,8 @@ cd docs
 make clean && make html
 ```
 
-Additional detailed can be found from [this script](docs/scripts/setup.sh).
+Additional detailed can be found from a file named [setup.sh](docs/scripts/setup.sh).
 
 ## Effect
 
-The page is visible from <https://jinghuazhao.github.io/sphinx/>
+Locally, one can use a browser for docs/build/html and remotely, the page is visible from <https://jinghuazhao.github.io/sphinx/>.
