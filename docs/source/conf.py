@@ -17,8 +17,8 @@ release = '0.0.1'
 
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinx.ext.mathjax',
     'sphinxcontrib.mermaid',
-    # any others you need…
 ]
 
 templates_path = ['_templates']
