@@ -39,7 +39,7 @@ cd docs
 make clean && make html
 ```
 
-Additional details can be found from a file named [setup.sh](docs/scripts/setup.sh).
+Additional details can be found from a file named [setup.sh](docs/scripts/setup.sh). Regular pushing to GitHub is done via [docs.sh](docs/scripts/docs.sh) which also takes [.github/workflows/docs.yml](.github/workflows/docs.yml) for CI and gh-pages.
 
 ## Browse
 
