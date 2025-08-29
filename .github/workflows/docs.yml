@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx-rtd-theme  # Add any other needed extensions
+          pip install sphinx sphinx-rtd-theme sphinxcontrib-mermaid
 
       - name: Build documentation
         working-directory: docs
@@ -34,4 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/build/html
           commit_message: Deploy docs
-          force_orphan: true  # Optional: avoids history buildup :contentReference[oaicite:1]{index=1}
+          force_orphan: true
