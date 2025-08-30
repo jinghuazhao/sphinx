@@ -3,13 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sphinx documentation
+Sphinx Documentation
 ====================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+Contents are generated using ``reStructuredText`` syntax [#f1]_.
 
 .. toctree::
    :maxdepth: 2
@@ -17,3 +14,5 @@ documentation for details.
 
    page1
    page2
+
+.. [#f1] See the `reStructuredText documentation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ for details.
