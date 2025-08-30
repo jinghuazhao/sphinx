@@ -6,7 +6,7 @@
 Sphinx Documentation
 ====================
 
-Contents are generated using ``reStructuredText`` syntax [#f1]_.
+Contents are generated using ``reStructuredText`` (Sphinx Project 2025).
 
 .. toctree::
    :maxdepth: 2
@@ -15,4 +15,8 @@ Contents are generated using ``reStructuredText`` syntax [#f1]_.
    page1
    page2
 
-.. [#f1] See the `reStructuredText documentation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ for details.
+References
+==========
+
+Sphinx Project. 2025. *reStructuredText — Sphinx Documentation*.
+Accessed August 30, 2025. `https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_.
