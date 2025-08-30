@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sphinx Documentation
-====================
+Sphinx
+======
 
 Contents are generated using ``reStructuredText`` (Sphinx Project 2025).
 
