@@ -1,6 +1,9 @@
 Page 2. Miscellaneous elements
 ==============================
 
+MathJax
+-------
+
 Q. Is :math:`\sin(4)` negative?
 
 A. Yes, based on results from R, we have:
@@ -11,6 +14,9 @@ A. Yes, based on results from R, we have:
    [1] -0.7568025
 
 So this value is based on radians.
+
+mermaid
+-------
 
 .. mermaid::
 

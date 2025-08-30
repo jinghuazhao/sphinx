@@ -2,14 +2,14 @@ Page 1. Hypertext
 =================
 
 Hyperlink
-=========
+---------
 
 Let's do this:
 
 `Visit the root website <https://jinghuazhao.github.io>`_
 
 Logo Image
-==========
+----------
 
 This section displays the logo image:
 
@@ -19,7 +19,7 @@ This section displays the logo image:
    :width: 200px
 
 Numbered List
-=============
+-------------
 
 Here are some sample steps:
 
