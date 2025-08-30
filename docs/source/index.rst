@@ -9,7 +9,7 @@ Sphinx
 Contents are generated using ``reStructuredText`` (Sphinx Project 2025).
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents
 
    page1
