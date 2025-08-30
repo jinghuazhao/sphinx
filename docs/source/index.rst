@@ -10,10 +10,15 @@ Contents are generated using ``reStructuredText`` (Sphinx Project 2025).
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
    page1
    page2
+
+   systems/index.rst
+   python/index.rst
+   r/index.rst
+   applications/index.rst
 
 References
 ==========
