@@ -30,6 +30,41 @@ $ tree
 5 directories, 11 files
 ```
 
+After adding categories, we have
+
+```
+.
+├── build
+├── make.bat
+├── Makefile
+├── scripts
+│   ├── docs.sh
+│   └── setup.sh
+└── source
+    ├── applications
+    │   └── index.rst
+    ├── conf.py
+    ├── index.rst
+    ├── page1.rst
+    ├── page2.rst
+    ├── python
+    │   └── index.rst
+    ├── r
+    │   └── index.rst
+    ├── _static
+    │   ├── bees.jpg
+    │   ├── custom.css
+    │   └── custom.js
+    ├── systems
+    │   ├── ceuadmin.rst
+    │   ├── index.rst
+    │   ├── setup.rst
+    │   └── systems.rst
+    └── _templates
+
+9 directories, 18 files
+```
+
 The design, in particular its sidebar, mirrors those at <https://cambridge-ceu.github.io/csd3/>.
 
 ## Build
