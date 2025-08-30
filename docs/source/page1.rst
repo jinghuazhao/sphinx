@@ -18,7 +18,7 @@ This section displays the logo image:
    :align: center
    :width: 200px
 
-code
+Code
 ----
 
 There are more options:
@@ -56,4 +56,4 @@ Here are some sample steps:
 3. Read the rest of the documentation.
 4. Share your feedback.
 
-This concludes page...
+This concludes page.
