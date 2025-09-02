@@ -5,7 +5,7 @@
   background-color: #123456;
 }
 
-/* 2. Logo styling (circle + blending) */
+/* 2. Logo styling (circular, isolated) */
 .wy-side-nav-search img,
 .wy-side-nav-search > a img.logo {
   width: 75px;
@@ -15,24 +15,27 @@
   display: block;
   margin: 10px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background-color: transparent;  /* let container bg show through */
+  background-color: transparent !important;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out; /* smoother hover animation */
+  transition: transform 0.2s ease-in-out;
 }
-
 .wy-side-nav-search img:hover {
   transform: scale(1.05);
 }
 
-/* 3. Make links and icons transparent */
+/* 3. Clear background for Home icon separately */
+.wy-nav-side .fa-home {
+  background-color: transparent !important;
+}
+
+/* 4. Transparent links/icons shell */
 .wy-nav-side a,
 .wy-nav-side li a,
-.wy-nav-side li a .fa,
-.wy-nav-side .fa-home {
+.wy-nav-side li a .fa {
   background-color: transparent;
 }
 
-/* 4. Optional: Set icon color to match text */
+/* 5. Icon color (optional customization) */
 .wy-nav-side .fa-home {
-  color: #fff;  /* adjust as needed */
+  color: #fff;
 }
