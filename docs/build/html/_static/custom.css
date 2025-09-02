@@ -8,18 +8,20 @@
 /* 2. Logo styling (circle + blending) */
 .wy-side-nav-search img,
 .wy-side-nav-search > a img.logo {
-  width: 75px
-  height: 75px
-  border-radius: 50%
-  object-fit: cover
-  display: block
-  margin: 10px auto
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
-  background-color: transparent  /* let container bg show through */
-  cursor: pointer
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: transparent;  /* let container bg show through */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* smoother hover animation */
 }
+
 .wy-side-nav-search img:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 /* 3. Make links and icons transparent */
