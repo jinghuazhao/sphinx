@@ -2,20 +2,20 @@
 .wy-side-nav-search,
 .wy-nav-top,
 .wy-nav-side {
-  background-color: #123456 !important;
+  background-color: #123456;
 }
 
 /* Logo styling—circle + background blending */
 .wy-side-nav-search img,
 .wy-side-nav-search > a img.logo {
-  width: 75px !important;
-  height: 75px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
   margin: 10px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background-color: #123456 !important;
+  background-color: #123456;
   cursor: pointer;
 }
 
@@ -26,5 +26,5 @@
 /* Clear out link backgrounds in sidebar, if applied */
 .wy-nav-side a,
 .wy-nav-side li a {
-  background-color: transparent !important;
+  background-color: transparent;
 }
