@@ -29,9 +29,7 @@ exclude_patterns = []
 
 # html_theme = 'alabaster'
 html_theme = "sphinx_rtd_theme"
-
-# Optionally:
 html_static_path = ['_static']
-html_logo = "_static/bees.jpg"
+html_logo = "_static/bees.png"
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']

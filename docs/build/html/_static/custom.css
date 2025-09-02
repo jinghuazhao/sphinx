@@ -1,15 +1,30 @@
-/* === Force logo into a perfect circle === */
-.wy-side-nav-search img {
-  width: 75px !important;           /* Fixed width */
-  height: 75px !important;          /* Fixed height to match width */
-  border-radius: 50% !important;    /* Circle */
-  object-fit: cover !important;     /* Crop image to fit circle */
+/* Sidebar & logo container background */
+.wy-side-nav-search,
+.wy-nav-top,
+.wy-nav-side {
+  background-color: #123456 !important;
+}
+
+/* Logo styling—circle + background blending */
+.wy-side-nav-search img,
+.wy-side-nav-search > a img.logo {
+  width: 75px !important;
+  height: 75px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
   display: block;
   margin: 10px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #123456 !important;
   cursor: pointer;
 }
 
 .wy-side-nav-search img:hover {
   transform: scale(1.05);
+}
+
+/* Clear out link backgrounds in sidebar, if applied */
+.wy-nav-side a,
+.wy-nav-side li a {
+  background-color: transparent !important;
 }

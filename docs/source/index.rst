@@ -22,7 +22,7 @@ Contents are generated using ``reStructuredText`` (Sphinx Project 2025).
 Comments
 --------
 
-It remains a flavour of `cambridge-ceu/csd3 <https://cambridge-ceu.github.io/csd3/>`_ but remarkably flexible.
+It maintains a flavour of `cambridge-ceu/csd3 <https://cambridge-ceu.github.io/csd3/>`_ but remarkably flexible.
 
 
 References

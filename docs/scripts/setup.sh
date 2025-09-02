@@ -19,6 +19,8 @@ gh repo create sphinx --description "Sphinx project" --public --source=. --remot
 touch .nojekyll
 sphinx-quickstart docs
 cd docs
+# module load ceuadmin/ImageMagick/
+# magick bees.jpg bees.png
 make clean && make html
 cd -
 git add .nojekyll
