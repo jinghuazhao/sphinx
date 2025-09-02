@@ -2,7 +2,7 @@
 .wy-side-nav-search,
 .wy-nav-top,
 .wy-nav-side {
-  background-color: #123456
+  background-color: #123456;
 }
 
 /* 2. Logo styling (circle + blending) */
@@ -29,10 +29,10 @@
 .wy-nav-side li a,
 .wy-nav-side li a .fa,
 .wy-nav-side .fa-home {
-  background-color: transparent
+  background-color: transparent;
 }
 
 /* 4. Optional: Set icon color to match text */
 .wy-nav-side .fa-home {
-  color: #fff  /* adjust as needed */
+  color: #fff;  /* adjust as needed */
 }
