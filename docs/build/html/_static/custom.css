@@ -1,11 +1,11 @@
-/* 1. Sidebar and header background */
+/* Sidebar & logo container background */
 .wy-side-nav-search,
 .wy-nav-top,
 .wy-nav-side {
   background-color: #123456;
 }
 
-/* 2. Logo styling (circle + blending) */
+/* Logo styling—circle + background blending */
 .wy-side-nav-search img,
 .wy-side-nav-search > a img.logo {
   width: 75px;
@@ -15,7 +15,7 @@
   display: block;
   margin: 10px auto;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background-color: transparent; /* let container bg show through */
+  background-color: #123456;
   cursor: pointer;
 }
 
@@ -23,15 +23,8 @@
   transform: scale(1.05);
 }
 
-/* 3. Make links and icons transparent */
+/* Clear out link backgrounds in sidebar, if applied */
 .wy-nav-side a,
-.wy-nav-side li a,
-.wy-nav-side li a .fa,
-.wy-nav-side .fa-home {
+.wy-nav-side li a {
   background-color: transparent;
-}
-
-/* 4. Optional: Set icon color to match text */
-.wy-nav-side .fa-home {
-  color: #fff; /* adjust as needed */
 }

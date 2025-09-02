@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (logo) {
     const link = document.createElement("a");
     link.href = "https://example.com";
- // link.target = "_blank";
+  //link.target = "_blank";
     logo.parentNode.insertBefore(link, logo);
     link.appendChild(logo);
   }
